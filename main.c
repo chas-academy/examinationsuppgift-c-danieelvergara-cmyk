@@ -5,12 +5,12 @@
 #include <string.h>
 
 int main() {
-    /* Namn och poang for 5 elever, 13 prov vardera */
+    //Namn och poang for 5 elever, 13 prov vardera 
     char names[5][12];
     int scores[5][13];
     float avg[5];
 
-    /* Las in data for varje elev */
+    // Las in data for varje elev 
     int i, j;
     for (i = 0; i < 5; i++) {
         scanf("%s", names[i]);

@@ -34,6 +34,13 @@ int main() {
             best = i;
         }
     }
+    
+    //Berakna gruppens genomsnitt 
+    float total = 0;
+    for (i = 0; i < 5; i++) {
+        total = total + avg[i];
+    }
+    float group_avg = total / 5.0;
 
     
     return 0;

@@ -42,6 +42,15 @@ int main() {
     }
     float group_avg = total / 5.0;
 
+        /* Skriv ut eleven med hogst medelvarde */
+    printf("%s\n", names[best]);
+
+    //Skriv ut alla elever som ligger under gruppens genomsnitt 
+    for (i = 0; i < 5; i++) {
+        if (avg[i] < group_avg) {
+            printf("%s\n", names[i]);
+        }
+    }
     
     return 0;
 }

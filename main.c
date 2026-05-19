@@ -23,6 +23,18 @@ int main() {
         }
         avg[i] = sum / 13.0;
     }
+
+    
+   //Hitta eleven med hogst medelvarde 
+    float highest = avg[0];
+    int best = 0;
+    for (i = 1; i < 5; i++) {
+        if (avg[i] > highest) {
+            highest = avg[i];
+            best = i;
+        }
+    }
+
     
     return 0;
 }
